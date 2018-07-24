@@ -10,5 +10,7 @@ console.log(jsonpatch.apply_patch(oldob,
         { "op": "move", "from": "/appinfo", "path": "/appversion"},
         { "op": "add", "path": "/biscuits",value:[] },
         { "op": "add", "path": "/biscuits/0", "value": { "name": "dalong" } },
-        { "op": "add", "path": "/biscuits/1", "value": { "name": "appdemo" } }
+        { "op": "add", "path": "/biscuits/1", "value": { "name": "appdemo" } },
+        { "op": "copy", "from": "/biscuits", "path": "/newbiscuits" }
+
     ]))

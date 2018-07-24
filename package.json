@@ -13,6 +13,12 @@
     "t": "node t",
     "p": "node p",
     "s": "node s",
-    "gs": "node gs"
+    "gs": "node gs",
+    "build": "browserify t.js > bundle.js",
+    "live":"live-server"
+  },
+  "devDependencies": {
+    "browserify": "^16.2.2",
+    "live-server": "^1.2.0"
   }
 }

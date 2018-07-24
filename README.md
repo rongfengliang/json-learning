@@ -25,3 +25,18 @@ yarn run s
 ```code
 yarn run gs
 ```
+
+## Browserify build
+
+* build
+
+```code
+yarn build
+```
+
+* live watch
+
+```code
+yarn start
+open browser open dev tools
+```
