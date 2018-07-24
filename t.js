@@ -15,6 +15,11 @@ var template={
   "biscuits":"{{biscuits}}"
 }
 
+var deprecateditems={
+  "appinfo":true,
+  "appurl":false
+}
+
 var oldob= {
     name:"dalong",
     age:333,
@@ -35,8 +40,8 @@ console.log(object(
 
     ]),
     function(value, data, key){
-      if(key=="appinfo") {
-        return "my default info"
+      if(deprecateditems[key]) {
+        return "my default value"
       }
       return render(value, data);
    }));
