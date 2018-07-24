@@ -40,3 +40,7 @@ yarn build
 yarn start
 open browser open dev tools
 ```
+
+## some images
+
+![images](./images/a.png)
