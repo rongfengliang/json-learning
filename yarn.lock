@@ -356,7 +356,7 @@ combine-source-map@^0.8.0, combine-source-map@~0.8.0:
     lodash.memoize "~3.0.3"
     source-map "~0.5.3"
 
-commander@^2.9.0:
+commander@^2.9.0, commander@~2.16.0:
   version "2.16.0"
   resolved "http://registry.npm.taobao.org/commander/download/commander-2.16.0.tgz#f16390593996ceb4f3eeb020b31d78528f7f8a50"
 
@@ -603,6 +603,10 @@ expand-range@^1.8.1:
   resolved "http://registry.npm.taobao.org/expand-range/download/expand-range-1.8.2.tgz#a299effd335fe2721ebae8e257ec79644fc85337"
   dependencies:
     fill-range "^2.1.0"
+
+extend@^1.2.1:
+  version "1.3.0"
+  resolved "http://registry.npm.taobao.org/extend/download/extend-1.3.0.tgz#d1516fb0ff5624d2ebf9123ea1dac5a1994004f8"
 
 extglob@^0.3.1:
   version "0.3.2"
@@ -1550,6 +1554,17 @@ simple-concat@^1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.taobao.org/simple-concat/download/simple-concat-1.0.0.tgz#7344cbb8b6e26fb27d66b2fc86f9f6d5997521c6"
 
+source-map-support@~0.5.6:
+  version "0.5.6"
+  resolved "http://registry.npm.taobao.org/source-map-support/download/source-map-support-0.5.6.tgz#4435cee46b1aab62b8e8610ce60f788091c51c13"
+  dependencies:
+    buffer-from "^1.0.0"
+    source-map "^0.6.0"
+
+source-map@^0.6.0, source-map@~0.6.1:
+  version "0.6.1"
+  resolved "http://registry.npm.taobao.org/source-map/download/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
+
 source-map@~0.5.3:
   version "0.5.7"
   resolved "http://registry.npm.taobao.org/source-map/download/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
@@ -1670,6 +1685,14 @@ tar@^4:
     safe-buffer "^5.1.2"
     yallist "^3.0.2"
 
+terser@^3.7.5:
+  version "3.8.1"
+  resolved "http://registry.npm.taobao.org/terser/download/terser-3.8.1.tgz#cb70070ac9e0a71add169dfb63c0a64fca2738ac"
+  dependencies:
+    commander "~2.16.0"
+    source-map "~0.6.1"
+    source-map-support "~0.5.6"
+
 through2@^2.0.0:
   version "2.0.3"
   resolved "http://registry.npm.taobao.org/through2/download/through2-2.0.3.tgz#0004569b37c7c74ba39c43f3ced78d1ad94140be"
@@ -1677,7 +1700,7 @@ through2@^2.0.0:
     readable-stream "^2.1.5"
     xtend "~4.0.1"
 
-through@2, "through@>=2.2.7 <3", through@~2.3, through@~2.3.1:
+through@2, "through@>=2.2.7 <3", through@~2.3, through@~2.3.1, through@~2.3.4:
   version "2.3.8"
   resolved "http://registry.npm.taobao.org/through/download/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
 
@@ -1702,6 +1725,27 @@ type-of-is@^3.4.0:
 typedarray@^0.0.6:
   version "0.0.6"
   resolved "http://registry.npm.taobao.org/typedarray/download/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
+
+uglify-js@^3.4.5:
+  version "3.4.5"
+  resolved "http://registry.npm.taobao.org/uglify-js/download/uglify-js-3.4.5.tgz#650889c0766cf0f6fd5346cea09cd212f544be69"
+  dependencies:
+    commander "~2.16.0"
+    source-map "~0.6.1"
+
+uglifyify@^5.0.1:
+  version "5.0.1"
+  resolved "http://registry.npm.taobao.org/uglifyify/download/uglifyify-5.0.1.tgz#70b1d8b413c410348c8e35e7f8bd1330a422d5f6"
+  dependencies:
+    convert-source-map "~1.1.0"
+    extend "^1.2.1"
+    minimatch "^3.0.2"
+    terser "^3.7.5"
+    through "~2.3.4"
+
+uglifyjs@^2.4.11:
+  version "2.4.11"
+  resolved "http://registry.npm.taobao.org/uglifyjs/download/uglifyjs-2.4.11.tgz#3440d64e045759589524418eb641c68bb90d113e"
 
 umd@^3.0.0:
   version "3.0.3"
