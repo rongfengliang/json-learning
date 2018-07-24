@@ -4,11 +4,15 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "generate-schema": "^2.6.0",
     "json-templater": "^1.2.0",
-    "jsonpatch": "^3.0.1"
+    "jsonpatch": "^3.0.1",
+    "jsonschema": "^1.2.4"
   },
   "scripts": {
-    "t":"node t",
-    "p":"node p"
+    "t": "node t",
+    "p": "node p",
+    "s": "node s",
+    "gs": "node gs"
   }
 }

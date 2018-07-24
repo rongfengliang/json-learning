@@ -1,6 +1,6 @@
-# json patch && json template demo
+# json patch && json template demo && json schema
 
-> include json-patch && json-t demo 
+> include json-patch && json-t demo   && json-schema
 
 ## Run json-patch demo
 
@@ -12,4 +12,16 @@ yarn run p
 
 ```code
 yarn run t
+```
+
+## Run json-schema
+
+```code
+yarn run s
+```
+
+## Run json schema generate
+
+```code
+yarn run gs
 ```

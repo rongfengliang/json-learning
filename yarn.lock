@@ -2,6 +2,17 @@
 # yarn lockfile v1
 
 
+commander@^2.9.0:
+  version "2.16.0"
+  resolved "http://registry.npm.taobao.org/commander/download/commander-2.16.0.tgz#f16390593996ceb4f3eeb020b31d78528f7f8a50"
+
+generate-schema@^2.6.0:
+  version "2.6.0"
+  resolved "http://registry.npm.taobao.org/generate-schema/download/generate-schema-2.6.0.tgz#9ac037550fd4243783a9f7681d39bee8870bcec2"
+  dependencies:
+    commander "^2.9.0"
+    type-of-is "^3.4.0"
+
 json-templater@^1.2.0:
   version "1.2.0"
   resolved "http://registry.npm.taobao.org/json-templater/download/json-templater-1.2.0.tgz#d12c96c7781d8451d623a8bee9b58f6901a8b15e"
@@ -9,3 +20,11 @@ json-templater@^1.2.0:
 jsonpatch@^3.0.1:
   version "3.0.1"
   resolved "http://registry.npm.taobao.org/jsonpatch/download/jsonpatch-3.0.1.tgz#97225367c1c3c5bf1641be59b2f73be19759f06f"
+
+jsonschema@^1.2.4:
+  version "1.2.4"
+  resolved "http://registry.npm.taobao.org/jsonschema/download/jsonschema-1.2.4.tgz#a46bac5d3506a254465bc548876e267c6d0d6464"
+
+type-of-is@^3.4.0:
+  version "3.5.1"
+  resolved "http://registry.npm.taobao.org/type-of-is/download/type-of-is-3.5.1.tgz#eec2fc89b828dbf9900eb6416eee30f4fe0fcd31"
