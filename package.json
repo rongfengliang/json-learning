@@ -1,0 +1,14 @@
+{
+  "name": "json-patch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "json-templater": "^1.2.0",
+    "jsonpatch": "^3.0.1"
+  },
+  "scripts": {
+    "t":"node t",
+    "p":"node p"
+  }
+}
