@@ -5,7 +5,9 @@
   "license": "MIT",
   "dependencies": {
     "generate-schema": "^2.6.0",
+    "json-merge-patch": "^0.2.3",
     "json-templater": "^1.2.0",
+    "json8-patch": "^0.4.1",
     "jsonpatch": "^3.0.1",
     "jsonschema": "^1.2.4",
     "uglify-js": "^3.4.5",
@@ -18,7 +20,8 @@
     "s": "node s",
     "gs": "node gs",
     "build": "browserify t.js | uglifyjs -c > bundle.js",
-    "live": "live-server"
+    "live": "live-server",
+    "m": "node m"
   },
   "devDependencies": {
     "browserify": "^16.2.2",

@@ -26,6 +26,12 @@ yarn run s
 yarn run gs
 ```
 
+## Run json merge patch
+
+```code
+yarn run  m
+```
+
 ## Browserify build
 
 * build

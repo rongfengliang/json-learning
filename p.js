@@ -4,7 +4,9 @@ const oldob= {
     age:333,
     appinfo:"demoapp"
 }
-console.log(jsonpatch.apply_patch(oldob,
+const json8 =require("json8-patch");
+
+const result =jsonpatch.apply_patch(oldob,
     [
         { "op": "replace", "path": "/name", "value": "boo" },
         { "op": "move", "from": "/appinfo", "path": "/appversion"},
@@ -13,4 +15,8 @@ console.log(jsonpatch.apply_patch(oldob,
         { "op": "add", "path": "/biscuits/1", "value": { "name": "appdemo" } },
         { "op": "copy", "from": "/biscuits", "path": "/newbiscuits" }
 
-    ]))
+    ])
+
+const path = json8.diff(oldob,result)
+
+console.log(path)
