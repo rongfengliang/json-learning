@@ -14,7 +14,7 @@
     "uglifyify": "^5.0.1",
     "uglifyjs": "^2.4.11"
   },
-  "apps": "\{"users\":\{"name\":\"dalong\",\"age\":33}}",
+  "apps": "{\"users\":{\"name\":\"dalong\",\"age\":33}}",
   "type": "dGhpcyBpcyBhIGV4YW1wbGU=",
   "scripts": {
     "t": "node t",
